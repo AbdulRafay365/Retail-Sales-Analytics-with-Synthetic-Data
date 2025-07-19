@@ -5,6 +5,7 @@ A normalized, synthetic SQL database project that simulates a retail business en
 ---
 Dashboard Preview
 <img width="1280" height="741" alt="image" src="https://github.com/user-attachments/assets/fc4fedf0-a9eb-41cc-86a5-7404f59dc87a" />
+<img width="654" height="288" alt="Screenshot 2025-07-19 at 7 15 48 PM" src="https://github.com/user-attachments/assets/c019e78c-b406-4bf6-a718-47f7af92669c" />
 
 ---
 
