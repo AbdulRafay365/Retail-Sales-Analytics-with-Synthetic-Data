@@ -1,78 +1,122 @@
-# Retail Sales & Analytics Dashboard (Faker SQL Project)
+# Retail Analytics: Synthetic Sales and Orders Database
 
-This project simulates a retail analytics environment using a **Faker-generated transactional database**, complete with **stored procedures**, **dimensional modeling**, and **sales analysis reports**. It's designed to mirror real-world business intelligence and data warehouse practices for learning and portfolio demonstration.
+A normalized, synthetic SQL database project that simulates a retail business environment, including customers, orders, products, stores, and payment methods. Ideal for OLTP modeling, business queries, and analytics visualization with Tableau.
 
-## Features
-
-- Sales summaries by **day, month, year**
-- Sales breakdowns by **product category** and **store**
-- Procedures to track **customer retention**
-- Payment method distribution in **top-performing regions**
-- Designed for reporting tools like **Tableau**, **Power BI**, and **Looker**
+---
+Dashboard Preview
+<img width="1280" height="741" alt="image" src="https://github.com/user-attachments/assets/fc4fedf0-a9eb-41cc-86a5-7404f59dc87a" />
 
 ---
 
-## Database Schema
+## 📌 Project Overview
 
-### 📦 Fact Tables
-- `orders` – Contains transactional order data
-- `order_items` – Line items with quantity, unit price per product
-
-### 📘 Dimension Tables
-- `customers`
-- `products`
-- `stores` *(includes address for region parsing)*
-- `payment_methods`
+This project is designed to:
+- Practice advanced SQL concepts including procedures, joins, and grouping.
+- Support business use cases such as sales trends, payment distributions, and store performance.
+- Serve as a backend for dashboards and data analytics exercises.
 
 ---
 
-## ⚙️ Stored Procedures
+## 🧱 Database Tables
 
-### 1. `TotalAvgSales(start_date, end_date)`
-Returns total and average sales:
-- Daily
-- Monthly
-- Yearly
+- **Customers** – User profile data including contact and address.
+- **Orders** – Order metadata linking customers, stores, and payment methods.
+- **Order Items** – Item-level breakdown of each order.
+- **Products** – Product details with categories and prices.
+- **Stores** – Store metadata with inferred region.
+- **Payment Methods** – Payment types, banks, and provider details.
 
-```sql
-CALL TotalAvgSales('2024-01-01', '2024-12-31');
+---
+
+## 🔗 Relationships & Keys
+
+- One customer can place many orders.
+- Each order can have multiple order items.
+- Products and stores are related via foreign keys in order items.
+- Orders use a payment method.
+- Each store stocks multiple products and fulfills orders.
+
+---
+
+## 📦 Entity Relationship Diagram
+
+```mermaid
+erDiagram
+    CUSTOMERS ||--o{ ORDERS : places
+    CUSTOMERS {
+        int customer_id PK
+        varchar customer_name
+        varchar email
+        varchar phone_number
+        varchar address
+        date join_date
+    }
+
+    ORDERS ||--o{ ORDER_ITEMS : contains
+    ORDERS {
+        int order_id PK
+        int customer_id FK
+        date order_date
+        decimal total_amount
+        int store_id FK
+        int payment_method_id FK
+    }
+
+    ORDER_ITEMS {
+        int order_item_id PK
+        int order_id FK
+        int store_id FK
+        int product_id FK
+        int quantity
+        decimal unit_price
+    }
+
+    PRODUCTS ||--o{ ORDER_ITEMS : included_in
+    PRODUCTS {
+        int product_id PK
+        varchar product_name
+        varchar category
+        decimal price
+        int stock_quantity
+        int store_id
+    }
+
+    STORES ||--o{ ORDERS : placed_at
+    STORES ||--o{ ORDER_ITEMS : fulfilled_by
+    STORES {
+        int store_id PK
+        varchar store_name
+        varchar address
+        varchar region
+    }
+
+    PAYMENT_METHODS ||--o{ ORDERS : used_by
+    PAYMENT_METHODS {
+        int payment_method_id PK
+        varchar method_name
+        enum method_category
+        varchar provider
+        varchar issuing_bank
+    }
 ```
 
-2. SalesByStoreName(start_date, end_date)
-
-Returns total and average sales by:
-	•	Product category
-	•	Store name
-
- ```sql
-CALL SalesByStoreName('2024-01-01', '2024-12-31');
-```
-
-Future Enhancements
-	•	Add ML-based demand forecasting
-	•	Include customer segmentation (RFM)
-	•	Connect to real-time BI tools
-	•	Normalize address into separate region, city, and postal_code fields
+⚙️ Sample Stored Procedures
+	•	TotalAvgSales() – Calculates total and average sales from order_items.
+	•	SalesByStoreName(start_date, end_date) – Aggregates sales by store and category in a given date range.
+	•	get_payment_distribution_top_region() – Shows top payment methods used by region.
 
 ⸻
 
-💻 Tech Stack
-	•	MySQL, Workbench
-	•	Python (for ETL / Faker Generation)
-	•	Tableau (for dashboards)
+📈 Use Cases
+	•	Business Intelligence Dashboards
+	•	OLAP Integration
+	•	SQL Practice (Joins, Grouping, Aggregation, Procedures)
+	•	Data Cleaning (Address → Region extraction)
 
 ⸻
 
-🧪 Example Queries
-
-Top 5 Product Categories by Sales
-
-```sql
-SELECT p.category, SUM(oi.quantity * oi.unit_price) AS TotalSales
-FROM order_items oi
-JOIN products p ON oi.product_id = p.product_id
-GROUP BY p.category
-ORDER BY TotalSales DESC
-LIMIT 5;
-```
-
+🛠️ Technologies
+	•	MySQL 8+
+	•       Workbench
+	•	Mermaid.js for ERD
+	•	Tableau
