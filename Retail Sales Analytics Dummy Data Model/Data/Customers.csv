@@ -1,0 +1,101 @@
+customer_id,customer_name,email,phone_number,address,join_date
+1,"Jesus Lane",april13@example.com,"+1 664 3141","4660 Kimberly Village Suite 187, Smithfurt, Ontario, Canada, P7G6A6",2022-05-31
+2,"Michelle Medina",gonzalezmelissa@example.net,"+1 792 2256","8882 Turner Views, Richstad, Ontario, Canada, S4Y 1B9",2023-07-30
+3,"Wesley Ellison",brian94@example.com,"+1 205 4008","07756 Dawn Knoll Apt. 003, Williamsville, Ontario, Canada, E3S1H7",2025-02-05
+4,"James Ramos",swansonelijah@example.com,"+1 863 5719","1009 Lisa Fall Apt. 998, Miguelview, Ontario, Canada, E6H6L5",2024-03-21
+5,"Jeremy Hernandez",ericksonhannah@example.net,"+1 614 4832","57111 Vargas Lane Apt. 025, Annfurt, Ontario, Canada, B2Y5X6",2025-04-02
+6,"Dennis Wong",bwilliams@example.com,"+1 564 7229","205 Brittany Centers Apt. 937, South Jeffreymouth, Ontario, Canada, G2E 9K3",2023-01-20
+7,"Brandon Cook",ashley52@example.org,"+1 371 9500","2272 Tiffany Extensions Apt. 716, Port Lukechester, Ontario, Canada, T2K7Y4",2023-12-17
+8,"Willie Torres",emily38@example.net,"+1 734 2726","250 John Ranch Suite 794, South Dawnton, Ontario, Canada, K7V8X9",2025-02-03
+9,"Kathryn Grant",dana75@example.org,"+1 264 5373","37625 Cunningham Pass Apt. 671, Lake Thomas, Ontario, Canada, L9L3R4",2023-01-16
+10,"Christine Grant",vdodson@example.com,"+1 263 2751","8743 Roman Burgs Suite 008, North John, Ontario, Canada, P2V5R6",2024-05-21
+11,"Stacy Mccann",hannah72@example.org,"+1 363 3751","78440 Grant Knoll Suite 145, Port Lesliemouth, Ontario, Canada, V6A 1S7",2022-04-04
+12,"Christian Hall",teresawilliams@example.org,"+1 218 6808","4971 Bryan Stravenue, Lake Mary, Ontario, Canada, Y6R2X9",2022-07-29
+13,"Katie Molina",jonesjonathan@example.net,"+1 412 4080","3065 Deanna Mission Suite 155, Millerside, Ontario, Canada, S4P5B5",2020-07-23
+14,"Amber Robinson",richard23@example.net,"+1 960 2593","9933 Stephen Corners Suite 523, South Nicole, Ontario, Canada, E1H2G1",2024-07-05
+15,"Brandon Parker",howardtiffany@example.com,"+1 850 5610","04933 Anne Lock, Michaelfurt, Ontario, Canada, H3G 6E1",2025-04-30
+16,"Benjamin Chapman",melissamclaughlin@example.org,"+1 415 3373","46614 Renee Centers Suite 799, North Debrafort, Ontario, Canada, H6T 1C1",2022-07-30
+17,"Linda Jackson",oandrews@example.net,"+1 314 2017","649 Baker Squares Apt. 400, Port John, Ontario, Canada, J4E5X7",2021-05-07
+18,"Jeffrey Johnson",tinaperez@example.net,"+1 952 4414","250 Rebecca Port, Staceyton, Ontario, Canada, V6R8L4",2023-06-16
+19,"April English",charles56@example.com,"+1 812 8547","66053 Collins Mountain Apt. 115, Michelleport, Ontario, Canada, B6L 6J5",2022-09-09
+20,"Ashley Dennis",johnsonsean@example.net,"+1 505 3524","76116 White Points, Dyerfurt, Ontario, Canada, T8L 8S9",2022-07-14
+21,"Steven Robinson",parkerkimberly@example.com,"+1 492 8841","46220 Yang Village Apt. 257, Ericksontown, Ontario, Canada, A4T4C1",2024-01-19
+22,"Katherine Arroyo",wpaul@example.org,"+1 354 6597","8216 Madeline Circles, Lake Scottview, Ontario, Canada, N9G 7T2",2022-02-07
+23,"Benjamin Martin",matthewwright@example.net,"+1 240 8129","14183 Carlos Lakes, Lake Laura, Ontario, Canada, C5N8B1",2022-10-25
+24,"Karen Carter",ybrown@example.org,"+1 869 7871","4450 Adrian Summit, West Anthony, Ontario, Canada, A5T 3G9",2022-03-22
+25,"Matthew Mosley",sandramorton@example.org,"+1 683 9760","1298 Jonathan Ports, Thompsonchester, Ontario, Canada, B4L 1J5",2022-02-09
+26,"Julie Lara",vazquezsandra@example.com,"+1 856 7076","17054 Gary Drive Suite 583, Coltonport, Ontario, Canada, K1M 3V5",2023-05-04
+27,"Steven Salinas",jongarrett@example.net,"+1 342 4760","63947 Clarke Way, Hannahton, Ontario, Canada, K1V 8E5",2024-10-23
+28,"Danny Freeman",jesse17@example.org,"+1 890 7458","74724 Nicole Run, Lopezfort, Ontario, Canada, J1K 9T6",2023-06-30
+29,"Brianna Briggs",taylorjason@example.com,"+1 868 9154","5294 Jensen Camp, Johnview, Ontario, Canada, C4L7T5",2022-06-29
+30,"Lauren Nicholson",christina38@example.net,"+1 854 3090","7330 Harris Route Suite 214, South Matthewside, Ontario, Canada, E7P2R5",2021-06-06
+31,"Cynthia Williams",brentgregory@example.com,"+1 485 1576","88599 Moore Creek, West Vicki, Ontario, Canada, A7J 5K4",2024-02-15
+32,"Kenneth Baxter",carolyn22@example.org,"+1 697 9725","8757 Krista View, Orozcoshire, Ontario, Canada, R5M 1B3",2020-10-14
+33,"Kathy Hawkins",laura40@example.com,"+1 875 1787","724 Aaron Lake Suite 303, South Jeffrey, Ontario, Canada, C2T 7J6",2021-01-04
+34,"Michael Salinas",karen49@example.com,"+1 690 1836","714 Michael Points Apt. 000, New Aaron, Ontario, Canada, M6X3E9",2022-02-19
+35,"Rebecca Jones",laurasellers@example.net,"+1 782 3132","33939 Kimberly Trail, Brandiville, Ontario, Canada, K7C7T8",2022-02-08
+36,"Kimberly Jones",ucooley@example.com,"+1 950 7535","447 Kaufman Vista, Lake Randyfort, Ontario, Canada, K7S8B2",2023-07-28
+37,"Jose Lara",charles78@example.com,"+1 849 7920","865 Torres Highway Apt. 821, Chungland, Ontario, Canada, A1H 2B3",2020-12-29
+38,"Eileen Johnson",aaustin@example.org,"+1 220 8914","3748 Ryan Mill, Christytown, Ontario, Canada, A2N 3A7",2023-09-13
+39,"Richard Montgomery",thomas82@example.com,"+1 200 3035","6872 Deleon Valleys, East Saraton, Ontario, Canada, R2B6K2",2024-12-20
+40,"Ricky Dawson",burtonchristian@example.net,"+1 667 7806","91378 Escobar Gateway, Walkermouth, Ontario, Canada, P5L 5G1",2023-03-20
+41,"Ashley Ramirez",andre99@example.com,"+1 550 9343","63676 Cheryl Summit, West Patricia, Ontario, Canada, B5C 2G3",2020-08-11
+42,"James Nolan",adamsdavid@example.net,"+1 415 8198","47823 Richardson Causeway Suite 595, East Jason, Ontario, Canada, N7P 9Y8",2022-11-09
+43,"Michael Deleon",morrisbrian@example.net,"+1 667 9251","0577 Collins Run, Robertsonside, Ontario, Canada, B6R1H3",2021-11-27
+44,"Jeffery Scott",jeanclayton@example.com,"+1 807 8463","20922 Scott Center Suite 658, South Ericstad, Ontario, Canada, R3H6X3",2025-05-29
+45,"Regina Peters",qhouse@example.com,"+1 242 8012","976 Herman Corner Suite 042, Davidside, Ontario, Canada, A8S3R6",2020-10-12
+46,"Julie Green",gabrielmichael@example.net,"+1 453 1504","84018 George Trail Suite 360, Howardland, Ontario, Canada, G1V 1S5",2022-02-13
+47,"Joshua Hart",kennedyrhonda@example.org,"+1 709 9725","08582 Brenda Ranch Apt. 071, Manningshire, Ontario, Canada, Y8A8X2",2022-09-16
+48,"Michael Hopkins",gramos@example.org,"+1 685 8308","239 Eric Pines Apt. 681, Edwardsport, Ontario, Canada, H4H 2N8",2021-08-21
+49,"Natalie Clark",tshaw@example.com,"+1 523 1897","7031 Michael Curve Suite 328, South Ruben, Ontario, Canada, N2V7C3",2024-07-04
+50,"Ashley Herrera",michael96@example.org,"+1 713 1944","143 Christopher Gateway Apt. 095, Lake Aprilport, Ontario, Canada, G8R 8S1",2022-02-01
+51,"Brian Gillespie",mitchelltonya@example.net,"+1 285 1494","98440 Rebekah Lodge, South Rickymouth, Ontario, Canada, A3M9C4",2021-05-12
+52,"Kenneth Grant",wendybooth@example.net,"+1 370 1404","8327 Torres Extensions Suite 133, Port Charles, Ontario, Canada, C1S 6L8",2024-12-27
+53,"Steven Scott",wthomas@example.org,"+1 338 4964","9496 Sheila Spring Apt. 634, New Rebecca, Ontario, Canada, X4Y3K1",2025-04-28
+54,"William Ho",fowleramanda@example.net,"+1 644 8654","7154 Webster Path, Lake Eric, Ontario, Canada, C7H 8B9",2021-02-08
+55,"Anthony Martin",ibuchanan@example.com,"+1 825 7640","67589 Jonathan Knoll Suite 919, Lake Jessicastad, Ontario, Canada, A1J1S7",2024-01-02
+56,"Crystal Stewart",amyheath@example.net,"+1 638 3788","9948 Samuel Ferry Apt. 017, Lewisport, Ontario, Canada, S8B 5L7",2021-02-26
+57,"Megan Herrera",martinbrent@example.net,"+1 764 6104","495 Ayers Manor Suite 508, South Jacqueline, Ontario, Canada, R8H 8L5",2023-03-20
+58,"Penny Turner",stevenoneal@example.net,"+1 238 2934","074 Matthew Crest Apt. 927, South Shellyland, Ontario, Canada, X1L 6R3",2022-01-22
+59,"Colleen Nguyen",fosterlinda@example.com,"+1 668 5232","829 Christy Creek, South Sarah, Ontario, Canada, N8S5Y6",2025-02-05
+60,"Lawrence Hanson",brandonhenson@example.net,"+1 809 2409","42623 Brown Well, West Jessica, Ontario, Canada, N8M9B5",2023-10-10
+61,"Katherine Wood",richard10@example.org,"+1 264 5896","62987 Kara Junctions, Leeton, Ontario, Canada, H4L1X8",2023-01-11
+62,"Trevor Schultz",madeline63@example.org,"+1 832 2380","26722 Kimberly Inlet Apt. 462, New Ronald, Ontario, Canada, S7G 9H4",2023-04-12
+63,"Mr. Patrick Baird Jr.",renee75@example.net,"+1 808 2518","2692 Lyons Harbor Apt. 962, Martinezview, Ontario, Canada, E3B1G7",2021-09-30
+64,"Diana Martin",geraldsmith@example.com,"+1 378 8058","66024 Aguilar Knolls, Mooreshire, Ontario, Canada, P6H 7E7",2023-05-11
+65,"Thomas Mccoy",destinybell@example.net,"+1 856 1693","2986 Reese Light Apt. 638, Saraton, Ontario, Canada, N9Y 3C1",2020-12-31
+66,"Darren Fry",martinezelizabeth@example.net,"+1 566 9776","3495 Kyle Common, Port Annemouth, Ontario, Canada, V4P5B7",2024-05-17
+67,"Tony Fields",rebeccamullins@example.net,"+1 520 2645","89835 Herrera View, Johnsonborough, Ontario, Canada, P8P 1S4",2023-05-05
+68,"Anthony Cross",susan10@example.org,"+1 595 6338","082 Carl Overpass, Lake Shelia, Ontario, Canada, G7V 1B6",2023-01-08
+69,"Kimberly Valentine",markanderson@example.org,"+1 913 2054","84640 Lisa Locks, Lake Amystad, Ontario, Canada, S6G5K9",2024-07-11
+70,"Nancy Webb MD",stanleycarl@example.net,"+1 691 3443","16953 Lee Crossing Apt. 815, Joycefurt, Ontario, Canada, N2C 1G4",2023-01-14
+71,"Tyler Peters",anthonymitchell@example.net,"+1 870 4414","5555 Case Pike, Connorchester, Ontario, Canada, B3L 7R1",2021-01-19
+72,"Anthony Tyler",rstanley@example.com,"+1 776 5325","76356 Johnson Common, North Sarah, Ontario, Canada, V4P 5T7",2020-08-07
+73,"Tiffany Palmer",cwaters@example.com,"+1 302 7998","4657 Campbell Island Suite 595, South Sonia, Ontario, Canada, E1T 5G2",2024-04-17
+74,"Rachel Lucas",alice62@example.com,"+1 229 5179","89382 Donovan Junction Suite 736, West Jerryshire, Ontario, Canada, R7K6H5",2024-02-16
+75,"Kelly Johnson",qkennedy@example.net,"+1 899 7178","190 Kaiser Ports, Michaelland, Ontario, Canada, H1B9A8",2022-03-15
+76,"Robert Baird",charles58@example.com,"+1 866 4561","482 Reed Gateway, Adamborough, Ontario, Canada, B8T5C7",2023-01-31
+77,"Jean Thompson",scottchristensen@example.net,"+1 827 1773","28579 Duncan Loop, South Jeremybury, Ontario, Canada, E3C 3J4",2023-04-08
+78,"Charles Hernandez",tmaynard@example.net,"+1 965 2278","3500 Smith Oval, Pooleberg, Ontario, Canada, N1N8E8",2021-07-13
+79,"Jessica Arnold",asantos@example.org,"+1 684 3843","7344 Carolyn Crescent Suite 911, Jackiechester, Ontario, Canada, N8S 7P3",2022-04-22
+80,"Nicholas Shields",benjaminalvarez@example.com,"+1 575 5957","467 Nicolas Ville, West Alec, Ontario, Canada, T9L 1S8",2021-05-21
+81,"Laura Rivera",tharmon@example.org,"+1 405 5172","15722 Brown Fort Apt. 895, Robertsonberg, Ontario, Canada, V4E 5Y9",2024-06-15
+82,"Nicholas Walker",curtisbrian@example.net,"+1 572 7367","486 Scott Lights, Loganburgh, Ontario, Canada, H7A2L9",2022-08-02
+83,"Ellen Mills",simpsonrandy@example.com,"+1 789 1423","93259 Mackenzie Freeway, Lake John, Ontario, Canada, B1A 1G8",2024-01-03
+84,"Richard Thompson",crobinson@example.net,"+1 746 2130","23114 Olson Neck, Paulmouth, Ontario, Canada, V9J3M8",2021-09-26
+85,"Brian Coleman Jr.",dudleybradley@example.net,"+1 759 3168","58150 Parker Rapids, Heatherfort, Ontario, Canada, Y7M2B8",2021-02-10
+86,"James Cook",martinpaul@example.org,"+1 937 4273","33871 Krueger Port Apt. 388, Sampsonbury, Ontario, Canada, R8T2A5",2024-10-19
+87,"Nathan Gonzalez",zdavis@example.org,"+1 307 7217","528 Don Lane, Kimberlyton, Ontario, Canada, B9B 2Y2",2025-02-12
+88,"David Hubbard",kblack@example.net,"+1 793 7765","67249 Crystal Pine Suite 322, Mitchellton, Ontario, Canada, G7S 3H4",2020-08-26
+89,"Lisa Wang",beckygarcia@example.org,"+1 629 9327","231 Blake Union, West Kyleshire, Ontario, Canada, Y2C 8T5",2022-05-06
+90,"Justin Gibson",lgarrett@example.net,"+1 389 7641","686 Flores Green Suite 582, West Deniseville, Ontario, Canada, S5G 8H8",2024-03-20
+91,"Jennifer Fields",melissabruce@example.com,"+1 646 8943","70140 Christopher Plains Apt. 295, New Brandonborough, Ontario, Canada, T4Y 6H1",2023-07-05
+92,"Connie Vargas",hmarsh@example.com,"+1 517 3655","900 Ellison Mountain, Kaufmanmouth, Ontario, Canada, G1L 8S1",2024-05-04
+93,"Jessica Strong",stephanie68@example.net,"+1 577 1227","72605 John Roads, Brownport, Ontario, Canada, N5S 6E1",2020-08-20
+94,"Chase Evans",kevinjohnson@example.net,"+1 394 8382","5483 Watkins Stravenue, West Michael, Ontario, Canada, G2B 2P6",2024-08-08
+95,"Steven Allen",tclarke@example.org,"+1 409 3483","9870 Danielle Landing Suite 600, Rebeccaville, Ontario, Canada, V4X7Y6",2020-07-25
+96,"Henry Williams",daniel19@example.org,"+1 504 7325","815 Margaret Land Suite 223, Martinhaven, Ontario, Canada, T4N4X1",2023-06-15
+97,"Brittany Reid",qgarcia@example.net,"+1 817 8313","70319 Gordon Mill, Kingshire, Ontario, Canada, A5Y4T3",2025-01-11
+98,"Brenda Garza",charleslaura@example.net,"+1 740 7650","474 Danielle Expressway Suite 263, Davidside, Ontario, Canada, V5H8X6",2024-04-01
+99,"Jacob Henry",robinsonchristopher@example.org,"+1 967 6558","7978 Buck Path, East Jacob, Ontario, Canada, P3K 9N2",2020-08-12
+100,"Michele Blackwell",leonardjason@example.com,"+1 201 9985","16087 Morton Rue, North Jonathanberg, Ontario, Canada, R7E 1J4",2024-10-06

@@ -1,0 +1,12 @@
+payment_method_id,method_name,provider,issuing_bank,method_category
+1,"Credit Card",Visa,TD,Card
+2,"Credit Card",MasterCard,RBC,Card
+3,"Credit Card",AMEX,"AMEX Bank",Card
+4,"Digital Wallet","Apple Pay",Scotiabank,"Digital Wallet"
+5,"Digital Wallet","Google Pay",BMO,"Digital Wallet"
+6,"Digital Wallet",PayPal,PayPal,"Digital Wallet"
+7,"Gift Card","RideWise Gift","RideWise Gift","Gift Card"
+8,"Gift Card","Walmart Gift Card","Walmart Gift Card","Gift Card"
+9,"Loyalty Points",RideWise+,RideWise+,Loyalty
+10,"Loyalty Points",Aeroplan,Aeroplan,Loyalty
+11,Cash,NULL,NULL,Cash
